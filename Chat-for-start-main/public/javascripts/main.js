@@ -4,7 +4,7 @@ const inp = document.querySelector('.chat__message');
 const form = document.querySelector('#chat-form');
 
 socket.on('message', (data) => {
-    // console.log(data);
+    // console.log(data); 
 
     outputMessage(data)
 })
