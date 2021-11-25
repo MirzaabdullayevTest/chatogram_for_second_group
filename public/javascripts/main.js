@@ -40,7 +40,7 @@ form.addEventListener('submit', (e) => {
 
     inp.value = ''
 
-    messageField.scrollTop = messageField.scrollHeight
+    messageField.scrollTop = messageField.scrollHeight + 50
 
     socket.emit('message', msg)
 })
