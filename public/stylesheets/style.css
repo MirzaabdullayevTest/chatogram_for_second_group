@@ -21,9 +21,11 @@ body {
   background: #121212;
   height: 80vh;
 }
+
 .chat__join {
   padding: 30px 20px;
-  background: black; /* fallback for old browsers */
+  background: black;
+  /* fallback for old browsers */
   border-radius: 2px;
   transform: translateY(-100px);
   box-shadow: 0 0px 30px black;
@@ -80,6 +82,7 @@ body {
 .input__username-room {
   cursor: pointer;
 }
+
 .chat__join_header {
   margin: auto;
   width: 340px;
@@ -103,9 +106,11 @@ body {
   margin-top: 30px;
   text-align: center;
 }
+
 .header_title_fa {
   color: white;
 }
+
 .input__username-label,
 .input__username-room {
   font-weight: 400;
@@ -116,6 +121,7 @@ body {
   cursor: pointer;
   margin: 0;
 }
+
 .form__input-username,
 .form__input-room {
   text-align: left;
@@ -189,6 +195,7 @@ select {
 .chat_exit {
   color: #ffffff;
 }
+
 .chat_exit:hover {
   color: red;
 }
@@ -237,7 +244,8 @@ select {
 
 .chat__sidebar {
   color: white;
-  background: transparent; /* fallback for old browsers */
+  background: transparent;
+  /* fallback for old browsers */
   padding: 20px 20px;
   min-height: 300px;
 }
@@ -271,10 +279,11 @@ select {
   padding: 0;
   overflow-y: auto;
 }
+
 .chat_userss li {
   padding: 5px;
   width: 100%;
-  color:  white;
+  color: white;
 }
 
 .chat__form_chat {
@@ -301,9 +310,11 @@ select {
   color: white;
   font-size: 20px;
 }
+
 .chat__form_chat button {
   margin-left: 10px;
 }
+
 .meta__time {
   position: absolute;
   color: rgb(190, 188, 188);
@@ -311,12 +322,14 @@ select {
   bottom: 0;
   font-weight: 400;
 }
+
 .meta__username {
   color: #ffffff;
   font-weight: 600;
   font-size: 25px;
   text-decoration: none;
 }
+
 .meta__text {
   color: #ffffff;
 }
